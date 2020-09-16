@@ -84,4 +84,15 @@ list5 = ['tom','32','M']
 #     i += 1
 # print(dict4)
 
-print({list4[i]:list5[i] for i in range(len(list4))})
+# print({list4[i]:list5[i] for i in range(len(list4))})
+
+#提取字典中目标数据
+# counts = {'MBP': 268,'HP': 201,'Lenovo': 199,'acer': 99}
+# # 获取值大于200的键值
+# print({key:value for key,value in counts.items() if value >=200})
+
+
+# 集合推导式,集合能去重
+list1 = [1,1,2]
+set1={i ** 2 for i in list1}
+print(set1)
