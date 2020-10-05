@@ -14,4 +14,8 @@ import os
 # os.mkdir("new_dir") #新建文件夹
 """
 
-import login
+# import login
+
+msg = '你好'
+print(msg.encode('utf-8'))
+print(b'\xe4\xbd\xa0\xe5\xa5\xbd'.decode('utf-8'))
