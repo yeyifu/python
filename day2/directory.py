@@ -38,7 +38,7 @@ av_catalog = {
 }
 av_catalog["大陆"]["1024"][1] = '国内可以做镜像'
 
-print(av_catalog.setdefault("大陆",{'www.baidu.com':[1,2]}))  #如果key存在，返回已有的值。否则添加指定值
+#print(av_catalog.setdefault("大陆",{'www.baidu.com':[1,2]}))  #如果key存在，返回已有的值。否则添加指定值
 
 
 print(av_catalog)
