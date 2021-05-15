@@ -1,22 +1,22 @@
 productory = [
-    ('Ihone',5800),
-    ('Mac Pro',9800),
-    ('Bike',800),
-    ('Watch',10600),
-    ('Coffee',31),
-    ('Alex Python',120)
+    ('Ihone', 5800),
+    ('Mac Pro', 9800),
+    ('Bike', 800),
+    ('Watch', 10600),
+    ('Coffee', 31),
+    ('Alex Python', 120)
 ]
 shopping_list = []
 salary = input('请输入您的工资:')
 if salary.isdigit():
     salary = int(salary)
     while True:
-        for index,key in enumerate(productory):
-            #print(productory.index(key),key)
-            print(index,key)
+        for index, key in enumerate(productory):
+            # print(productory.index(key), key)
+            print(index, key)
         user_choice = input('请选择要买的商品编号:')
-        if user_choice.isdigit():   #判断是否是整数
-            user_choice = int(user_choice)  #转换成整型
+        if user_choice.isdigit():   # 判断是否是整数
+            user_choice = int(user_choice)  # 转换成整型
             if user_choice < len(productory) and user_choice >= 0:
                 p_item = productory[user_choice]
                 # print(p_item)
