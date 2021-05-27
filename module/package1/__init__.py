@@ -1,0 +1,1 @@
+# print("我是package中的__init__.py")
